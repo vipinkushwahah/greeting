@@ -1,0 +1,77 @@
+@keyframes color {
+    0% {
+        background: rgb(253, 81, 2);
+    }
+
+    20% {
+        background: #db1212;
+    }
+
+    40% {
+        background: #0bb7fc;
+    }
+
+    60% {
+        background: #0bcc3b;
+    }
+
+    80% {
+        background: #e4f319;
+    }
+
+    100% {
+        background: rgba(253, 81, 2);
+    }
+}
+
+body {
+
+     /* background-image:url(' https://wallpapers.com/images/high/horizon-full-screen-hd-desktop-nsw7v8luhapdp6gs.webp');
+     border: 20px solid black; 
+     border-radius: 20px; 
+     background-repeat: no-repeat;
+    height: 50%; 
+     width: 100%;  */
+
+    animation: color 15s infinite linear;
+
+}
+h1 {
+    font-style: oblique;
+    width: 600px;
+    height: 220px;
+    margin-left: 35%;
+    margin-top: 10%;
+    box-shadow: 0 0 5px #f45b03, 0 0 15px #f45b03, 0 0 25px #f44f03, 0 0 100px #f45b03;
+    text-shadow:0 0 5px #2208a3, 0 0 15px #2a27ca, 0 0 25px #5325aa, 0 0 100px #232385;
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 20px;
+    animation: color 11s infinite linear;
+    padding: 10px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    
+}
+.style {
+    font-style: italic;
+    text-align: center;
+    text-shadow:0 0 5px #0c0436, 0 0 15px #1a1975, 0 0 25px #090118, 0 0 100px #07072b;
+    
+}
+img {
+    height: 90vh;
+    width: 90%;
+    background:transparent;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #11100f, 0 0 15px #161414, 0 0 25px #140e0b, 0 0 100px #030100;
+    
+    
+}
+img {
+    border-radius: 20px;
+}
